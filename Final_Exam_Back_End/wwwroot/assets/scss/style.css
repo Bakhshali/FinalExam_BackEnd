@@ -1,0 +1,493 @@
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: white;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+header #mainbar .navbar-menu a {
+  color: black;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+header #mainbar .navbar-menu a:hover {
+  color: #3498DB;
+}
+
+header #mainbar .logo {
+  color: #535A5F;
+}
+
+header #mainbar .menu ul li {
+  list-style: none;
+  color: #59646B;
+  -webkit-transition: .2s;
+  transition: .2s;
+  font-weight: bold;
+}
+
+header #mainbar .menu ul li:hover {
+  color: #389ADC;
+  cursor: pointer;
+}
+
+main #slider .black {
+  background-color: black;
+}
+
+main #slider .carousel-inner .carousel-item {
+  position: relative;
+}
+
+main #slider .carousel-inner .carousel-item img {
+  opacity: .7;
+}
+
+main #slider .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 30%;
+}
+
+main #slider .carousel-inner .carousel-item .carousel-caption h5 {
+  font-size: 60px;
+}
+
+main #slider .carousel-inner .carousel-item .carousel-caption h5 span {
+  border-bottom: solid 5px #3498DB;
+}
+
+main #slider .carousel-inner .carousel-item .carousel-caption p {
+  font-size: 30px;
+}
+
+main #slider .carousel-inner .carousel-item .carousel-caption a {
+  background-color: #3498DB;
+  border: none;
+  font-size: 18px;
+}
+
+main #what .text {
+  text-align: center;
+}
+
+main #what .text h2 {
+  color: #5B6367;
+}
+
+main #what .text p {
+  font-size: 18px;
+}
+
+main #what .text .line .left {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #what .text .line .right {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #what .text .line .midle {
+  width: 50px;
+  height: 3px;
+  background-color: #3498DB;
+}
+
+main #what .box {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #what .box:hover {
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+main #what .box:hover .title h3 {
+  color: #3498DB;
+}
+
+main #what .box .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #what .box .icon i {
+  font-size: 24px;
+  width: 65px;
+  height: 65px;
+  background-color: #EAF4FB;
+  color: #3498DB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+}
+
+main #what .box .title {
+  text-align: center;
+}
+
+main #what .box .title h3 {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+main #service {
+  background-color: #f7fbfe;
+}
+
+main #service .text {
+  text-align: center;
+}
+
+main #service .text h2 {
+  color: #5B6367;
+}
+
+main #service .text p {
+  font-size: 18px;
+}
+
+main #service .text .line .left {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #service .text .line .right {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #service .text .line .midle {
+  width: 50px;
+  height: 3px;
+  background-color: #3498DB;
+}
+
+main #service .box {
+  background-color: white;
+  border-radius: 5px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+main #service .box h3 {
+  font-size: 23px;
+  color: black;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+main #service .box:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+main #service .box:hover .title h3 {
+  color: #3498DB;
+}
+
+main #service .box .large .icon i {
+  font-size: 40px;
+  color: #3498DB;
+}
+
+main #team .text {
+  text-align: center;
+}
+
+main #team .text h2 {
+  color: #5B6367;
+}
+
+main #team .text p {
+  font-size: 18px;
+}
+
+main #team .text .line .left {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #team .text .line .right {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #team .text .line .midle {
+  width: 50px;
+  height: 3px;
+  background-color: #3498DB;
+}
+
+main #team .box {
+  width: 100%;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+main #team .box .image {
+  text-align: center;
+}
+
+main #team .box .image img {
+  margin-top: 15px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+
+main #team .box .title {
+  text-align: center;
+}
+
+main #team .box .title a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #535A5F;
+}
+
+main #team .box .title p {
+  font-size: 16px;
+}
+
+main #team .box .social ul li {
+  list-style: none;
+  margin: 0 0 0 10px;
+}
+
+main #team .box .social ul li i {
+  font-size: 20px;
+  color: #919191;
+}
+
+main #contact {
+  background-color: #F7FBFE;
+  background-color: white;
+}
+
+main #contact .message {
+  background-color: white;
+}
+
+main #contact .message .btn a {
+  background-color: #3498DB;
+  font-size: 25px;
+  border: none;
+  text-align: center;
+}
+
+main #contact .text {
+  text-align: center;
+}
+
+main #contact .text h2 {
+  color: #5B6367;
+}
+
+main #contact .text p {
+  font-size: 18px;
+}
+
+main #contact .text .line .left {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #contact .text .line .right {
+  margin-top: 1px;
+  width: 40px;
+  height: 1px;
+  background-color: #586269;
+}
+
+main #contact .text .line .midle {
+  width: 50px;
+  height: 3px;
+  background-color: #3498DB;
+}
+
+main #contact .icon i {
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background-color: #EAF4FB;
+  color: #3498DB;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+main #contact .icon i:hover {
+  background-color: #3498DB;
+  color: white;
+}
+
+main #contact .title h4 {
+  font-size: 30px;
+}
+
+main #contact .title p {
+  color: #586269;
+  font-size: 18px;
+  width: 175px;
+}
+
+footer #main {
+  background-color: white;
+}
+
+footer #main .subs .btn button {
+  background-color: #3498DB;
+  border: none;
+}
+
+footer #main .join h5 {
+  font-size: 20px;
+}
+
+footer #main .join p {
+  font-size: 16px;
+}
+
+footer #main .useful h5 {
+  font-size: 20px;
+}
+
+footer #main .useful ul {
+  padding-left: 0;
+}
+
+footer #main .useful ul li {
+  list-style: none;
+  margin-top: 10px;
+  color: #535A5F;
+  font-size: 16px;
+  -webkit-transition: .2s;
+  transition: .2s;
+  cursor: pointer;
+}
+
+footer #main .useful ul li:hover {
+  color: #389ADC;
+}
+
+footer #main .useful ul li i {
+  font-size: 15px;
+  color: #3498DB;
+}
+
+footer #main .title h2 {
+  color: #444444;
+  font-size: 35px;
+}
+
+footer #main .title p {
+  font-size: 16px;
+  color: #586269;
+  width: 160px;
+}
+
+footer #main .contact p {
+  font-size: 14px;
+  color: #444444;
+}
+
+footer #main .subs {
+  position: relative;
+}
+
+footer #main .btn button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 999;
+  width: 130px;
+}
+
+footer #copy {
+  background-color: #F7FBFE;
+}
+
+footer #copy p {
+  color: #535A5F;
+  font-size: 14px;
+}
+
+footer #copy ul li {
+  list-style: none;
+}
+
+footer #copy ul li i {
+  font-size: 17px;
+  width: 37px;
+  height: 37px;
+  background-color: #3498DB;
+  color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 992px) {
+  #mainbar .menu {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #mainbar .navbar-menu {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

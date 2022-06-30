@@ -1,0 +1,52 @@
+﻿@model List<Team>
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<div class="table-responsive m-5">
+    <a style="color:white" asp-controller="Team" asp-action="Create" class="btn btn-success">Create Team</a>
+    <table class="table mt-3">
+        <thead>
+            <tr>
+
+                <th scope="col">Image</th>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Subtitle</th>
+                <th scope="col">Detail</th>
+                <th scope="col">Edir</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Team team in Model)
+            {
+                <tr>
+                    <td><img style="width:200px;height:150px" src="~/assets/img/team/@team.Image" /></td>
+                    <td>@team.Name</td>
+                    <td>@team.Position</td>
+                    <td>@team.Subtitle</td>
+                    @*<td>
+
+                                        @if (team.Subtitle.Length>=30)
+                        {
+                            @(team.Subtitle.Substring(0,30).ToString() + "...")
+
+                            else
+                            {
+                                @team.Subtitle
+                            }
+                        }</td>*@
+
+                    <td><a asp-controller="Team" asp-action="Detail" asp-route-id="@team.Id"> <i style="font-size:35px;color:orange" class="fa-solid fa-circle-info"></i></a></td>
+                    <td><a asp-controller="Team" asp-action="Edit" asp-route-id="@team.Id"> <i style="font-size:35px;color:green" class="fa-solid fa-pen-to-square"></i></a></td>
+                    <td><a asp-controller="Team" asp-action="Delete" asp-route-id="@team.Id"> <i style="font-size:35px;color:red" class="fa-solid fa-trash-can"></i></a></td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+</div>
+

@@ -1,0 +1,55 @@
+﻿@model Team
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<div class="m-5">
+    <div>
+        <h3>Image</h3>
+        <img style="width:200px;height:150px" src="~/assets/img/team/@Model.Image" />
+    </div>
+    <div>
+        <h3>
+            Name
+        </h3>
+        <p>@Model.Name</p>
+    </div>
+    <div>
+        <h3>
+            Name
+        </h3>
+        <p>@Model.Position</p>
+    </div>
+    <div>
+        <h3>
+            Position
+        </h3>
+        <p>@Model.Subtitle</p>
+    </div>
+
+    <div>
+        <h3>
+            Facebook
+        </h3>
+        <p>@Model.FbUrl</p>
+    </div>
+    <div>
+        <h3>
+            Instagram
+        </h3>
+        <p>@Model.InstaUrl</p>
+    </div>
+    <div>
+        <h3>
+            Twitter
+        </h3>
+        <p>@Model.TwitterUrl</p>
+    </div>
+    <form method="post">
+        <button class="btn btn-danger" type="submit">Delete</button>
+    </form>
+</div>
+
+
+

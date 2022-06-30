@@ -1,0 +1,52 @@
+﻿@model Team
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="m-5">
+    <div>
+        <h3>Image</h3>
+        <img style="width:200px;height:150px" src="~/assets/img/team/@Model.Image" />
+    </div>
+    <div>
+        <h3>
+            Name
+        </h3>
+        <p>@Model.Name</p>
+    </div>
+    <div>
+        <h3>
+            Name
+        </h3>
+        <p>@Model.Position</p>
+    </div>
+    <div>
+        <h3>
+            Position
+        </h3>
+        <p>@Model.Subtitle</p>
+    </div>
+
+    <div>
+        <h3>
+            Facebook
+        </h3>
+        <p>@Model.FbUrl</p>
+    </div>
+    <div>
+        <h3>
+            Instagram
+        </h3>
+        <p>@Model.InstaUrl</p>
+    </div>
+    <div>
+        <h3>
+            Twitter
+        </h3>
+        <p>@Model.TwitterUrl</p>
+    </div>
+   <div>
+       <a  style="color:white" asp-controller="team" asp-action="index" class="btn btn-success mt-3">Back</a>
+   </div>
+</div>
+
